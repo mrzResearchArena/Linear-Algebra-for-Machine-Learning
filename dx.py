@@ -20,3 +20,6 @@ print(x)
 # v = np.array(range(-5, 10))
 #
 # print(f(v))
+
+# Resources:
+# [1] https://abdalimran.github.io/2018-05-18/Intuition-of-Gradient-Descent-for-Machine-Learning
