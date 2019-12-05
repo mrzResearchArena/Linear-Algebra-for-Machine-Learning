@@ -1,10 +1,10 @@
 # f(x)  = (x**2) - (6*x) + 5
 # f'(x) = (2*x) - 6
 
-x=8
-alpha=0.01
+x=8        # random start
+alpha=0.01 # learning rate
 
-for i in range(1, 10):
+for i in range(1, 10): # epoch
     dx = (2*x) - 6
     x = x - (alpha * dx)
     
