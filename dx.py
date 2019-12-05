@@ -1,11 +1,13 @@
+# f(x)  = (x**2) - (6*x) + 5
+# f'(x) = (2*x) - 6
+
 x=8
 alpha=0.01
 
 for i in range(1, 10):
     dx = (2*x) - 6
-    xNext = x - (alpha * dx)
-    x = xNext
-
+    x = x - (alpha * dx)
+    
     print(dx, xNext, x)
 
 #end for
